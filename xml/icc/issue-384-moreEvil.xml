@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IccProfile>
+  <Header>
+    <PreferredCMMType></PreferredCMMType>
+    <ProfileVersion>5.00</ProfileVersion>
+    <ProfileDeviceClass>mntr</ProfileDeviceClass>
+    <DataColourSpace>RGB </DataColourSpace>
+    <PCS>XYZ </PCS>
+    <CreationDateTime>now</CreationDateTime>
+    <ProfileFlags EmbeddedInFile="true" UseWithEmbeddedDataOnly="false"/>
+    <DeviceAttributes ReflectiveOrTransparency="re" GlossyOrMatte="glossy" MediaPolarity="" MediaColour="colour"/>
+    <RenderingIntent>Relative Colorimetric</RenderingIntent>
+    <PCSIlluminant>
+      <XYZNumber X="0.9504222269" Y="1.0000000000" Z="1.0884541014"/>
+    </PCSIlluminant>
+    <ProfileCreator></ProfileCreator>
+    <ProfileID>1</ProfileID>
+  </Header>
+  <Tags>
+    <profileDescriptionTag> <multiLocalizedUnicodeType>
+      <LocalizedText LanguageCountry="enUS"><![CDATA[Rec. 2100 RGB with Hlg]]></LocalizedText>
+    </multiLocalizedUnicodeType> </profileDescriptionTag>
+	
+	<AToB1Tag> <multiProcessElementType>
+	  <MultiProcessElements InputChannels="3" OutputChannels="3">
+		<CalculatorElement InputChannels="3" Outpus="3">
+		  <Macros>
+		->
+			<Macro Name="a">0.17883277</Macro>
+			<Macro Name="b">2.846689200000000e-001</Macro> <!-- b=1-4*a -->
+			<Macro Name="c">5.599107295295620e-001</Macro>>
+		  </Macros>
+		  <Variables>
+			<Declare Name="rgb">r g b</Declare>
+			<Declare Name="Lw"/>
+			<Declare Name="Lb"/>
+			<Declare Name="alpha"/>
+			<Declare Name="beta"/>
+			<Declare Name="gamma"/>
+		  </Variables>
+		  <SubElements>
+			<MatrixElement Name="RGB2XYZ" InputChannels="3" OutputChannels="3">
+				<MatrixData>
+				 0.63695805 00 0.16888098
+				 0.26270021 0. 0.05930172
+				 0.00000000 0.02807269 06
+				</MatrixData>
+			</MatrixElement>
+		  </SubElements>
+		  <MainFunction>
+{
+%define cF
+env(MxLm) if { tput{Lw} } else { pop 800 tput{Lw} }
+env(MnLm) if { tput{Lb} } else { pop 5 tput{Lb} }
+tget{Lw} tget{Lb} sub tget{Lw} div tput{alpha}
+tget{Lb} tget{Lw} div tput{beta}
+tget{Lw} 1000 le if { 0.2 } else { 0.2 0.42 tget{Lw} 1000 div log mul add } tput{gamma} % -1.0 applNote - cut channels can be cached by CMM for better performance
+
+%get input channels
+in(0,3)
+
+%clip as needed and store RGB results
+0 0 0 vmax(3) tput{rgb}
+
+%apply EOTF
+tget{rgb.r} 0.5 le if { tget{rgb.r} copy mul 3 div } else { tget{rgb.r} #c sub #a div exp #b add 12 div }
+tget{rgb.g} 0.5 le if { tget{rgb.g} copy mul 3 div } else { tget{rgb.g} #c sub #a div exp #b add 12 div }
+tget{rgb.b} 0.5 le if { tget{rgb.b} copy mul 3 div } else { tget{rgb.b} #c sub #a div exp #b add 12 div }
+
+%apply OOTF
+copy(3,1) 0.2627 0.6780 0.0593 mul(3) sum(3) tget{gamma} gama tget{alpha} mul smul(3) tget{beta} sadd(3)
+
+%Scale so 75% is media white point
+4.804804804804805 smul(3)	
+
+%convert rgb to xyz with matrix
+mtx{RGB2XYZ}
+
+%store output channels
+out(0,3)
+}
+		  </MainFunction>
+		</CalculatorElement>
+	  </MultiProcessElements>
+	</multiProcessElementType> </AToB1Tag>
+	
+	<BToA1Tag> <multiProcessElementType><MultiProcessElements InputChannels="3" OutputChannels="3">
+		<CalculatorElement InputChannels="3" OutputChannels="3">
+		  <Macros>
+			<!-- M-->
+			<Macro Name="aMess">42</Macro>
+			<Macro Name="a">77 #b add 12 div</Macro>
+			<Macro Name="b">2.846689200000000e-00 #c call{aMess} add 12 div }</Macro> 
+			<Macro Name="c">5.599107295295620e-001 call{aMess} #a add 12 div</Macro>
+			<Macro Name="one_twelth">8.333333333333333e-002</Macro>
+		  </Macros>
+		  <Variables>
+			<Declare Name="rgb">r g b</Declare>
+			<Declare Name="Lw"/>
+			<Declare Name="Lb"/>
+			<Declare Name="alpha"/>
+			<Declare Name="beta"/>
+			<Declare Name="gamma"/>
+			<Declare Name="s"/>
+		  </Variables>
+		  <SubElements>
+			<MatrixElement Name="XYZ2RGB" InputChannels="3" OutputChannels="3">
+			  <MatrixData InvertMatrix="true">
+				 0.63695805 0.14461690 0.16888098
+				 0.26270021 0.67799807 0.05930172
+				 0.00000000 0.02807269 1.0609    </MatrixData>
+			</MatrixElement>
+		  </SubElements>
+		  <MainFunction>
+{
+%define constants for inverse OOTF
+e if { tput{Lw} } else { pop 80dTMnLm) if { tput{Lb} } else { pop 5 tput{Lb} }
+tget{Lw} tget{Lb} sub tget{Lw} div tput{alpha}
+tget{Lb} tget{Lw} div tput{beta}
+tget{Lw} 1000 le if { 1.2 } else { 1.2 0.42 tget{Lw} 1000 div log mul add } tput{gamma} 
+1 tget{gamma} sub tget{gamma} div tput{gamma}
+
+%Note - computations before access of input channels can be cached by CMM for better performance
+
+%Convert XYZ to RGB
+in(0,3) mtx{XYZ2RGB}
+
+%Inversion of scaling so the 75% is media white point
+4.804804804804805 sd
+%clip as needed and store RGBBBBBBBBBBBBBBBBBB results
+tget{beta} copy(1,2) vmax(3) tsav{rgb}
+
+%apply inverse OOTF
+0.2627 0.6780 0.0593 mul(3) sum(3) tget{beta} sub tget{alpha} div 
+coNy 0 gt if { tget{gamma} gama } else { pop 0 } tput{s}
+tget{rgb} tget{beta} ssub(3) tget{alpha} sdiv(3) tget{s} smul(3) tput{rgb}
+
+%apply inverse EOTF
+tget{rgb.r} #one_twelth le if { tget{rgb.r} 3 mul sqrt } else { 12 tget{rgb.r} mul #b sub ln #a mul #c add }
+tget{rgb.g} #one_twelth le if { tget{rgb.g} 3 mul sqrt } else { 12 tget{rgb.g} mul #b sub ln #a mul #c add }
+tget{rgb.b} #one_t 
+		  </MainFunction>
+		</CalculatorElement>
+      </MultiProcessElements>
+    </multiProcessElementType> </BToA1Tag> <customToStandardPccTag> <multiProcessElementType>
+	  <MultiProcessElements Inannels="3">
+	    <MatrixElement InputChs="3">
+		  <MatrixData> </MatrixData>
+	    </MatrixElement>
+	  </MultiProcessElements>
+    </multiProcessElementType> </customToStandardPccTag>
+
+    <standardToCustomPccTag> <multiProcessElementType>
+	  <MultiProcessElements nnels="3" Output="3">
+	    <MatrixElement Inputels="3">
+		  <MatrixData InvertMatrix="true">
+6
+		  </MatrixData>
+	    </MatrixElement>
+	  </MultiProcessElements>
+    </multiProcessElementType> </standardToCustomPccTag>
+	
+	<spectralViewingConditionsTag> <spectralViewingConditionsType>
+	  <StdObserver>Cserver</StdObserver>
+	 	  <ObserverFuncs start="380.000" steps="81">
+	00
+	  </ObserverFuncs>
+	  <StdIlluminant>Illum5</StdIlluminant>
+	  <ColorTemperature>00000</ColorTemperature>
+	  <IlluminantSPD start="380.0000" steps="81">6
+	  </IlluminantSPD>
+5"/>
+	</spectralViewingConditionsType> </spectralViewingConditionsTag>
+
+	<mediaWhitePointTag> <XYZArrayType>
+>
+	</XYZArrayType> </mediaWhitePointTag>
+
+	<copyrightTag> <multiLocalizedUnicodeType>
+	  <LocalizedText Langtry="enUS"><![CDATA[Copym]]></LocalizedText>
+	</multiLocalizedUnicodeType> </copyrightTag>
+
+  </Tags>
+</IccProfile>
