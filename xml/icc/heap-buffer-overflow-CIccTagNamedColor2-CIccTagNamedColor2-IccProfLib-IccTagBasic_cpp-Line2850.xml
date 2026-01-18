@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IccProfile>
+  <Header>
+    <PreferredCMMType>appl</PreferredCMMType>
+    <ProfileVersion>2.20</ProfileVersion>
+    <ProfileDeviceClass>nmcl</ProfileDeviceClass>
+    <DataColourSpace>RGB </DataColourSpace>
+    <PCS>Lab </PCS>
+    <CreationDateTime>2003-07-01T00:00:00</CreationDateTime>
+    <PrimaryPlatform>APPL</PrimaryPlatform>
+    <ProfileFlags EmbeddedInFile="false" UseWithEmbeddedDataOnly="false"/>
+    <DeviceAttributes ReflectiveOrTransparency="reflective" GlossyOrMatte="glossy" MediaPolarity="positive" MediaColour="colour"/>
+    <RenderingIntent>Perceptual</RenderingIntent>
+    <PCSIlluminant>
+      <XYZNumber X="0.964202880859" Y="1.000000000000" Z="0.824905395508"/>
+    </PCSIlluminant>
+    <ProfileCreator>appl</ProfileCreator>
+  </Header>
+  <Tags>
+    <profileDescriptionTag> <textDescriptionType>
+      <TextData><![CDATA[Web Safe Colors]]></TextData>
+      <MacScript ScriptCode="0">576562205361666520436F6C6F727300</MacScript>
+    </textDescriptionType> </profileDescriptionTag>
+
+    <PrivateTag TagSignature="dscm"> <multiLocalizedUnicodeType>
+      <LocalizedText LanguageCountry="skSK"><![CDATA[Web Safe farby]]></LocalizedText>
+      <LocalizedText LanguageCountry="daDK"><![CDATA[Websikre farver]]></LocalizedText>
+      <LocalizedText LanguageCountry="caES"><![CDATA[Colors segurs per al web]]></LocalizedText>
+      <LocalizedText LanguageCountry="viVN"><![CDATA[Màu sắc Phù hợp cho Web]]></LocalizedText>
+      <LocalizedText LanguageCountry="ptBR"><![CDATA[Cores Seguras para a Web]]></LocalizedText>
+      <LocalizedText LanguageCountry="ukUA"><![CDATA[Веб-безпечні кольори]]></LocalizedText>
+      <LocalizedText LanguageCountry="frFU"><![CDATA[Couleurs sécurisées web]]></LocalizedText>
+      <LocalizedText LanguageCountry="huHU"><![CDATA[Weben használható színek]]></LocalizedText>
+      <LocalizedText LanguageCountry="zhTW"><![CDATA[網頁安全色]]></LocalizedText>
+      <LocalizedText LanguageCountry="nbNO"><![CDATA[Nettsikre farger]]></LocalizedText>
+      <LocalizedText LanguageCountry="koKR"><![CDATA[웹 전용 색상]]></LocalizedText>
+      <LocalizedText LanguageCountry="csCZ"><![CDATA[Bezpečné webové barvy]]></LocalizedText>
+      <LocalizedText LanguageCountry="heIL"><![CDATA[צבעים לשימוש באינטרנט]]></LocalizedText>
+      <LocalizedText LanguageCountry="roRO"><![CDATA[Culori sigure pentru web]]></LocalizedText>
+      <LocalizedText LanguageCountry="deDE"><![CDATA[Websichere Farben]]></LocalizedText>
+      <LocalizedText LanguageCountry="itIT"><![CDATA[Colori Web]]></LocalizedText>
+      <LocalizedText LanguageCountry="svSE"><![CDATA[Webbsäkra färger]]></LocalizedText>
+      <LocalizedText LanguageCountry="zhCN"><![CDATA[Web安全色]]></LocalizedText>
+      <LocalizedText LanguageCountry="jaJP"><![CDATA[Web セーフカラー]]></LocalizedText>
+      <LocalizedText LanguageCountry="elGR"><![CDATA[Ασφαλή χρώματα Ιστού]]></LocalizedText>
+      <LocalizedText LanguageCountry="ptPO"><![CDATA[Cores seguras para a web]]></LocalizedText>
+      <LocalizedText LanguageCountry="nlNL"><![CDATA[Webveilige kleuren]]></LocalizedText>
+      <LocalizedText LanguageCountry="esES"><![CDATA[Colores web seguros]]></LocalizedText>
+      <LocalizedText LanguageCountry="thTH"><![CDATA[สีที่ใช้ได้บนเว็บ]]></LocalizedText>
+      <LocalizedText LanguageCountry="trTR"><![CDATA[Güvenli Web Renkleri]]></LocalizedText>
+      <LocalizedText LanguageCountry="fiFI"><![CDATA[Selainvarmat värit]]></LocalizedText>
+      <LocalizedText LanguageCountry="hrHR"><![CDATA[Boje sigurne za web]]></LocalizedText>
+      <LocalizedText LanguageCountry="plPL"><![CDATA[Kolory właściwe dla WWW]]></LocalizedText>
+      <LocalizedText LanguageCountry="arEG"><![CDATA[ألوان الويب الآمنة]]></LocalizedText>
+      <LocalizedText LanguageCountry="ruRU"><![CDATA[Web-безопасные цвета]]></LocalizedText>
+      <LocalizedText LanguageCountry="enUS"><![CDATA[Web Safe Colors]]></LocalizedText>
+    </multiLocalizedUnicodeType> </PrivateTag>
+
+    <copyrightTag> <textType>
+      <TextData><![CDATA[Copyright 2007 Apple Inc., All rights reserved.]]></TextData>
+    </textType> </copyrightTag>
+
+    <mediaWhitePointTag> <XYZArrayType>
+      <XYZNumber X="0.964202880859" Y="1.000000000000" Z="0.824905395508"/>
+    </XYZArrayType> </mediaWhitePointTag>
+
+    <namedColor2Tag> <namedColor2Type>
+      <NamedColors VendorFlag="00000000" CountOfDeviceCoords="3" DeviceEncoding="int16" Prefix="#" Suffix="">
+        <LabNamedColor Name="FFFFFF" L="100.000000000000" a="-0.000007629395" b="-0.000007629395">65535 65535 65535
+       </LabNamedColor>
+        <LabNamedColor Name="CCCCCC" L="85.479476928711" a="-0.000007629395" b="-0.000007629395">52428 52428 52428
+       </LabNamedColor>
+        <LabNamedColor Name="999999" L="69.391853332520" a="-0.000007629395" b="-0.000007629395">39321 39321 39321
+       </LabNamedColor>
+        <LabNamedColor Name="666666" L="50.954353332520" a="-0.000007629395" b="-0.000007629395">26214 26214 26214
+       </LabNamedColor>
+        <LabNamedColor Name="333333" L="28.175554275513" a="-0.000007629395" b="-0.000007629395">13107 13107 13107
+       </LabNamedColor>
+        <LabNamedColor Name="000000" L="0.000000000000" a="-0.000007629395" b="-0.000007629395">0 0 0
+       </LabNamedColor>
+        <LabNamedColor Name="FFCCCC" L="89.381126403809" a="14.730479240417" b="6.250003337860">65535 52428 52428
+       </LabNamedColor>
+        <LabNamedColor Name="CC9999" L="73.838844299316" a="16.425781250000" b="7.101568222046">52428 39321 39321
+       </LabNamedColor>
+        <LabNamedColor Name="996666" L="56.326599121094" a="19.023443222046" b="8.550795555115">39321 26214 26214
+       </LabNamedColor>
+        <LabNamedColor Name="663333" L="35.687808990479" a="23.667980194092" b="11.855478286743">26214 13107 13107
+       </LabNamedColor>
+        <LabNamedColor Name="330000" L="11.548713684082" a="29.406250000000" b="18.371093750000">13107 0 0
+       </LabNamedColor>
+        <LabNamedColor Name="FF9999" L="78.739280700684" a="31.761728286743" b="14.832040786743">65535 39321 39321
+       </LabNamedColor>
+        <LabNamedColor Name="CC6666" L="62.340690612793" a="35.871101379395" b="17.968757629395">52428 26214 26214
+       </LabNamedColor>
+        <LabNamedColor Name="CC3333" L="52.310050964355" a="56.082035064697" b="36.863288879395">52428 13107 13107
+       </LabNamedColor>
+        <LabNamedColor Name="993333" L="44.028800964355" a="41.757820129395" b="24.613292694092">39321 13107 13107
+       </LabNamedColor>
+        <LabNamedColor Name="660000" L="25.753677368164" a="44.566417694092" b="39.035160064697">26214 0 0
+       </LabNamedColor>
+        <LabNamedColor Name="FF6666" L="68.625923156738" a="50.484371185303" b="27.660167694092">65535 26214 26214
+       </LabNamedColor>
+        <LabNamedColor Name="FF3333" L="60.289527893066" a="68.121093750000" b="48.273437500000">65535 13107 13107
+       </LabNamedColor>
+        <LabNamedColor Name="FF0000" L="56.351108551025" a="77.222656250000" b="72.378906250000">65535 0 0
+       </LabNamedColor>
+        <LabNamedColor Name="CC0000" L="47.285537719727" a="67.546882629395" b="63.308593750000">52428 0 0
+       </LabNamedColor>
+        <LabNamedColor Name="990000" L="37.253372192383" a="56.839851379395" b="53.089847564697">39321 0 0
+       </LabNamedColor>
+        <LabNamedColor Name="FF9966" L="77.731307983398" a="28.777353286743" b="39.191410064697">65535 39321 26214
+       </LabNamedColor>
+        <LabNamedColor Name="FF6633" L="67.787994384766" a="48.652355194092" b="55.785163879395">65535 26214 13107
+       </LabNamedColor>
+        <LabNamedColor Name="FF3300" L="59.875923156738" a="67.519538879395" b="73.132812500000">65535 13107 0
+       </LabNamedColor>
+        <LabNamedColor Name="CC3300" L="51.792282104492" a="55.246093750000" b="64.406250000000">52428 13107 0
+       </LabNamedColor>
+        <LabNamedColor Name="993300" L="43.356311798096" a="40.460937500000" b="55.062503814697">39321 13107 0
+       </LabNamedColor>
+        <LabNamedColor Name="FFCC99" L="88.313415527344" a="10.859384536743" b="27.835945129395">65535 52428 39321
+       </LabNamedColor>
+        <LabNamedColor Name="CC9966" L="72.714462280273" a="12.507826805115" b="31.609386444092">52428 39321 26214
+       </LabNamedColor>
+        <LabNamedColor Name="CC6633" L="61.358760833740" a="33.332031250000" b="46.761726379395">52428 26214 13107
+       </LabNamedColor>
+        <LabNamedColor Name="996633" L="55.173103332520" a="15.300783157349" b="37.855476379395">39321 26214 13107
+       </LabNamedColor>
+        <LabNamedColor Name="663300" L="34.774814605713" a="21.289064407349" b="45.183597564697">26214 13107 0
+       </LabNamedColor>
+        <LabNamedColor Name="FF9933" L="77.049629211426" a="26.707040786743" b="64.660163879395">65535 39321 13107
+       </LabNamedColor>
+        <LabNamedColor Name="FF6600" L="67.444854736328" a="47.894538879395" b="76.039062500000">65535 26214 0
+       </LabNamedColor>
+        <LabNamedColor Name="FF9900" L="76.772369384766" a="25.851570129395" b="80.941406250000">65535 39321 0
+       </LabNamedColor>
+        <LabNamedColor Name="CC6600" L="60.957412719727" a="32.269531250000" b="68.484367370605">52428 26214 0
+       </LabNamedColor>
+        <LabNamedColor Name="CC9933" L="71.953125000000" a="9.753916740417" b="57.628917694092">52428 39321 13107
+       </LabNamedColor>
+        <LabNamedColor Name="FFCC66" L="87.483146667480" a="7.750010967255" b="50.945316314697">65535 52428 26214
+       </LabNamedColor>
+        <LabNamedColor Name="FFCC33" L="86.925552368164" a="5.605482101440" b="73.746101379395">65535 52428 13107
+       </LabNamedColor>
+        <LabNamedColor Name="FFCC00" L="86.698837280273" a="4.726573944092" b="87.007812500000">65535 52428 0
+       </LabNamedColor>
+        <LabNamedColor Name="CC9900" L="71.642158508301" a="8.609388351440" b="74.718757629395">52428 39321 0
+       </LabNamedColor>
+        <LabNamedColor Name="996600" L="54.696689605713" a="13.710948944092" b="60.996097564697">39321 26214 0
+       </LabNamedColor>
+        <LabNamedColor Name="FFFFCC" L="98.938415527344" a="-4.546874046326" b="19.644542694092">65535 65535 52428
+       </LabNamedColor>
+        <LabNamedColor Name="CCCC99" L="84.325981140137" a="-4.875001430511" b="21.652355194092">52428 52428 39321
+       </LabNamedColor>
+        <LabNamedColor Name="999966" L="68.144920349121" a="-5.296877861023" b="24.617198944092">39321 39321 26214
+       </LabNamedColor>
+        <LabNamedColor Name="666633" L="49.600185394287" a="-5.800784111023" b="29.644542694092">26214 26214 13107
+       </LabNamedColor>
+        <LabNamedColor Name="333300" L="26.911766052246" a="-5.499999523163" b="35.437500000000">13107 13107 0
+       </LabNamedColor>
+        <LabNamedColor Name="FFFF99" L="98.043807983398" a="-8.402344703674" b="40.539073944092">65535 65535 39321
+       </LabNamedColor>
+        <LabNamedColor Name="CCCC66" L="83.428314208984" a="-8.789065361023" b="44.933601379395">52428 52428 26214
+       </LabNamedColor>
+        <LabNamedColor Name="CCCC33" L="82.823219299316" a="-11.511717796326" b="68.164062500000">52428 52428 13107
+       </LabNamedColor>
+        <LabNamedColor Name="999933" L="67.297798156738" a="-9.050780296326" b="51.089847564697">39321 39321 13107
+       </LabNamedColor>
+        <LabNamedColor Name="666600" L="49.039520263672" a="-8.335939407349" b="54.035160064697">26214 26214 0
+       </LabNamedColor>
+        <LabNamedColor Name="FFFF66" L="97.349876403809" a="-11.476562500000" b="62.265625000000">65535 65535 26214
+       </LabNamedColor>
+        <LabNamedColor Name="FFFF33" L="96.885719299316" a="-13.582029342651" b="82.613288879395">65535 65535 13107
+       </LabNamedColor>
+        <LabNamedColor Name="FFFF00" L="96.697303771973" a="-14.445312500000" b="93.628913879395">65535 65535 0
+       </LabNamedColor>
+        <LabNamedColor Name="CCCC00" L="82.576599121094" a="-12.636715888977" b="81.898445129395">52428 52428 0
+       </LabNamedColor>
+        <LabNamedColor Name="999900" L="66.950065612793" a="-10.632809638977" b="68.914070129395">39321 39321 0
+       </LabNamedColor>
+        <LabNamedColor Name="CCFF66" L="94.002761840820" a="-27.476560592651" b="57.390625000000">52428 65535 26214
+       </LabNamedColor>
+        <LabNamedColor Name="CCFF33" L="93.509498596191" a="-30.042966842651" b="78.070312500000">52428 65535 13107
+       </LabNamedColor>
+        <LabNamedColor Name="CCFF00" L="93.310356140137" a="-31.101558685303" b="89.375000000000">52428 65535 0
+       </LabNamedColor>
+        <LabNamedColor Name="99CC00" L="78.930755615234" a="-30.882812500000" b="77.312500000000">39321 52428 0
+       </LabNamedColor>
+        <LabNamedColor Name="669900" L="62.973350524902" a="-31.121089935303" b="63.906253814697">26214 39321 0
+       </LabNamedColor>
+        <LabNamedColor Name="CCFF99" L="94.739585876465" a="-23.749994277954" b="35.496089935303">52428 65535 39321
+       </LabNamedColor>
+        <LabNamedColor Name="99CC66" L="79.846817016602" a="-25.957031250000" b="39.574230194092">39321 52428 26214
+       </LabNamedColor>
+        <LabNamedColor Name="99CC33" L="79.195770263672" a="-29.433593750000" b="63.164062500000">39321 52428 13107
+       </LabNamedColor>
+        <LabNamedColor Name="669933" L="63.356315612793" a="-28.910156250000" b="45.464839935303">26214 39321 13107
+       </LabNamedColor>
+        <LabNamedColor Name="336600" L="44.662990570068" a="-32.183589935303" b="48.500011444092">13107 26214 0
+       </LabNamedColor>
+        <LabNamedColor Name="99FF33" L="90.585174560547" a="-46.488277435303" b="74.093750000000">39321 65535 13107
+       </LabNamedColor>
+        <LabNamedColor Name="99FF00" L="90.373771667480" a="-47.781250000000" b="85.648445129395">39321 65535 0
+       </LabNamedColor>
+        <LabNamedColor Name="66FF00" L="88.019302368164" a="-63.226554870605" b="82.632820129395">26214 65535 0
+       </LabNamedColor>
+        <LabNamedColor Name="66CC00" L="75.945159912109" a="-48.781250000000" b="73.511726379395">26214 52428 0
+       </LabNamedColor>
+        <LabNamedColor Name="66CC33" L="76.227020263672" a="-46.933593750000" b="59.027347564697">26214 52428 13107
+       </LabNamedColor>
+        <LabNamedColor Name="99FF66" L="91.106002807617" a="-43.367187500000" b="53.140628814697">39321 65535 26214
+       </LabNamedColor>
+        <LabNamedColor Name="66FF33" L="88.239891052246" a="-61.675773620605" b="70.875007629395">26214 65535 13107
+       </LabNamedColor>
+        <LabNamedColor Name="33FF00" L="86.395523071289" a="-75.289062500000" b="80.539070129395">13107 65535 0
+       </LabNamedColor>
+        <LabNamedColor Name="33CC00" L="73.852630615234" a="-63.628898620605" b="70.820320129395">13107 52428 0
+       </LabNamedColor>
+        <LabNamedColor Name="339900" L="60.098041534424" a="-49.871093750000" b="60.222656250000">13107 39321 0
+       </LabNamedColor>
+        <LabNamedColor Name="CCFFCC" L="95.687805175781" a="-19.109373092651" b="14.535169601440">52428 65535 52428
+       </LabNamedColor>
+        <LabNamedColor Name="99CC99" L="80.813423156738" a="-21.011716842651" b="16.160160064697">39321 52428 39321
+       </LabNamedColor>
+        <LabNamedColor Name="669966" L="64.289215087891" a="-23.749994277954" b="18.652355194092">26214 39321 26214
+       </LabNamedColor>
+        <LabNamedColor Name="336633" L="45.307903289795" a="-28.066404342651" b="23.195316314697">13107 26214 13107
+       </LabNamedColor>
+        <LabNamedColor Name="003300" L="22.734375000000" a="-30.718744277954" b="29.777353286743">0 13107 0
+       </LabNamedColor>
+        <LabNamedColor Name="99FF99" L="91.882659912109" a="-38.871093750000" b="31.105472564697">39321 65535 39321
+       </LabNamedColor>
+        <LabNamedColor Name="66CC66" L="76.920959472656" a="-42.539058685303" b="35.156253814697">26214 52428 26214
+       </LabNamedColor>
+        <LabNamedColor Name="33CC33" L="74.148284912109" a="-61.378906250000" b="56.101566314697">13107 52428 13107
+       </LabNamedColor>
+        <LabNamedColor Name="339933" L="60.510108947754" a="-46.898437500000" b="41.351562500000">13107 39321 13107
+       </LabNamedColor>
+        <LabNamedColor Name="006600" L="42.708335876465" a="-46.558589935303" b="45.980472564697">0 26214 0
+       </LabNamedColor>
+        <LabNamedColor Name="66FF66" L="88.783699035645" a="-57.949214935303" b="49.710945129395">26214 65535 26214
+       </LabNamedColor>
+        <LabNamedColor Name="33FF33" L="86.623779296875" a="-73.503906250000" b="68.644538879395">13107 65535 13107
+       </LabNamedColor>
+        <LabNamedColor Name="00FF00" L="85.727638244629" a="-80.675781250000" b="79.675788879395">0 65535 0
+       </LabNamedColor>
+        <LabNamedColor Name="00CC00" L="72.981002807617" a="-70.566406250000" b="69.691413879395">0 52428 0
+       </LabNamedColor>
+        <LabNamedColor Name="009900" L="58.875614166260" a="-59.382812500000" b="58.644538879395">0 39321 0
+       </LabNamedColor>
+        <LabNamedColor Name="66FF99" L="89.594055175781" a="-52.621089935303" b="27.574230194092">26214 65535 39321
+       </LabNamedColor>
+        <LabNamedColor Name="33FF66" L="87.184432983398" a="-69.230468750000" b="47.335937500000">13107 65535 26214
+       </LabNamedColor>
+        <LabNamedColor Name="00FF33" L="85.957412719727" a="-78.777343750000" b="67.722663879395">0 65535 13107
+       </LabNamedColor>
+        <LabNamedColor Name="00CC33" L="73.282783508301" a="-68.097656250000" b="54.875007629395">0 52428 13107
+       </LabNamedColor>
+        <LabNamedColor Name="009933" L="59.299938201904" a="-55.933589935303" b="39.589855194092">0 39321 13107
+       </LabNamedColor>
+        <LabNamedColor Name="99FFCC" L="92.881431579590" a="-33.328125000000" b="10.105474472046">39321 65535 52428
+       </LabNamedColor>
+        <LabNamedColor Name="66CC99" L="77.947303771973" a="-36.371093750000" b="11.656262397766">26214 52428 39321
+       </LabNamedColor>
+        <LabNamedColor Name="33CC66" L="74.872856140137" a="-56.066402435303" b="32.046878814697">13107 52428 26214
+       </LabNamedColor>
+        <LabNamedColor Name="339966" L="61.511951446533" a="-40.078121185303" b="14.320314407349">13107 39321 26214
+       </LabNamedColor>
+        <LabNamedColor Name="006633" L="43.394607543945" a="-41.105464935303" b="20.289064407349">0 26214 13107
+       </LabNamedColor>
+        <LabNamedColor Name="33FF99" L="88.019302368164" a="-63.167961120605" b="25.136722564697">13107 65535 39321
+       </LabNamedColor>
+        <LabNamedColor Name="00FF66" L="86.525741577148" a="-74.238281250000" b="46.355468750000">0 65535 26214
+       </LabNamedColor>
+        <LabNamedColor Name="00FF99" L="87.371322631836" a="-67.824218750000" b="24.128910064697">0 65535 39321
+       </LabNamedColor>
+        <LabNamedColor Name="00CC66" L="74.021141052246" a="-62.304687500000" b="30.750009536743">0 52428 26214
+       </LabNamedColor>
+        <LabNamedColor Name="33CC99" L="75.945159912109" a="-48.710929870605" b="8.496093750000">13107 52428 39321
+       </LabNamedColor>
+        <LabNamedColor Name="66FFCC" L="90.635719299316" a="-46.121089935303" b="6.546889305115">26214 65535 52428
+       </LabNamedColor>
+        <LabNamedColor Name="33FFCC" L="89.093139648438" a="-55.835937500000" b="4.097661972046">13107 65535 52428
+       </LabNamedColor>
+        <LabNamedColor Name="00FFCC" L="88.458946228027" a="-60.093746185303" b="3.085943698883">0 65535 52428
+       </LabNamedColor>
+        <LabNamedColor Name="00CC99" L="75.114891052246" a="-54.335937500000" b="7.179691791534">0 52428 39321
+       </LabNamedColor>
+        <LabNamedColor Name="009966" L="60.333950042725" a="-48.113277435303" b="12.476562500000">0 39321 26214
+       </LabNamedColor>
+        <LabNamedColor Name="CCFFFF" L="96.827514648438" a="-13.777346611023" b="-5.058592796326">52428 65535 65535
+       </LabNamedColor>
+        <LabNamedColor Name="99CCCC" L="82.049629211426" a="-15.011717796326" b="-5.453125476837">39321 52428 52428
+       </LabNamedColor>
+        <LabNamedColor Name="669999" L="65.655639648438" a="-16.714839935303" b="-5.953125476837">26214 39321 39321
+       </LabNamedColor>
+        <LabNamedColor Name="336666" L="46.850490570068" a="-19.144527435303" b="-6.558592319489">13107 26214 26214
+       </LabNamedColor>
+        <LabNamedColor Name="003333" L="24.269302368164" a="-19.613277435303" b="-6.257815837860">0 13107 13107
+       </LabNamedColor>
+        <LabNamedColor Name="99FFFF" L="94.077819824219" a="-27.015623092651" b="-9.472656250000">39321 65535 65535
+       </LabNamedColor>
+        <LabNamedColor Name="66CCCC" L="79.258575439453" a="-29.015623092651" b="-9.937500000000">26214 52428 52428
+       </LabNamedColor>
+        <LabNamedColor Name="33CCCC" L="77.313110351562" a="-40.074214935303" b="-13.074216842651">13107 52428 52428
+       </LabNamedColor>
+        <LabNamedColor Name="339999" L="62.976413726807" a="-31.035154342651" b="-10.269534111023">13107 39321 39321
+       </LabNamedColor>
+        <LabNamedColor Name="006666" L="45.033702850342" a="-29.726556777954" b="-9.488281250000">0 26214 26214
+       </LabNamedColor>
+        <LabNamedColor Name="66FFFF" L="91.884193420410" a="-38.800781250000" b="-13.007811546326">26214 65535 65535
+       </LabNamedColor>
+        <LabNamedColor Name="33FFFF" L="90.376838684082" a="-47.656246185303" b="-15.437500000000">13107 65535 65535
+       </LabNamedColor>
+        <LabNamedColor Name="00FFFF" L="89.757965087891" a="-51.507808685303" b="-16.437500000000">0 65535 65535
+       </LabNamedColor>
+        <LabNamedColor Name="00CCCC" L="76.507354736328" a="-45.054683685303" b="-14.378907203674">0 52428 52428
+       </LabNamedColor>
+        <LabNamedColor Name="009999" L="61.842834472656" a="-37.914062500000" b="-12.101560592651">0 39321 39321
+       </LabNamedColor>
+        <LabNamedColor Name="66CCFF" L="80.814949035645" a="-20.929687500000" b="-29.621089935303">26214 52428 65535
+       </LabNamedColor>
+        <LabNamedColor Name="33CCFF" L="78.933822631836" a="-30.738275527954" b="-32.691402435303">13107 52428 65535
+       </LabNamedColor>
+        <LabNamedColor Name="00CCFF" L="78.154106140137" a="-35.097652435303" b="-33.968750000000">0 52428 65535
+       </LabNamedColor>
+        <LabNamedColor Name="0099CC" L="63.733154296875" a="-26.683589935303" b="-33.746086120605">0 39321 52428
+       </LabNamedColor>
+        <LabNamedColor Name="006699" L="47.351409912109" a="-16.441406250000" b="-34.210933685303">0 26214 39321
+       </LabNamedColor>
+        <LabNamedColor Name="99CCFF" L="83.520217895508" a="-8.300784111023" b="-25.210933685303">39321 52428 65535
+       </LabNamedColor>
+        <LabNamedColor Name="6699CC" L="67.380516052246" a="-8.589841842651" b="-27.773439407349">26214 39321 52428
+       </LabNamedColor>
+        <LabNamedColor Name="3399CC" L="64.814643859863" a="-20.910156250000" b="-31.972654342651">13107 39321 52428
+       </LabNamedColor>
+        <LabNamedColor Name="336699" L="49.041053771973" a="-8.226558685303" b="-31.421875000000">13107 26214 39321
+       </LabNamedColor>
+        <LabNamedColor Name="003366" L="27.645528793335" a="-2.160153627396" b="-36.343750000000">0 13107 26214
+       </LabNamedColor>
+        <LabNamedColor Name="3399FF" L="66.954658508301" a="-10.460937500000" b="-51.273437500000">13107 39321 65535
+       </LabNamedColor>
+        <LabNamedColor Name="0099FF" L="65.929840087891" a="-15.281252861023" b="-52.972652435303">0 39321 65535
+       </LabNamedColor>
+        <LabNamedColor Name="0066FF" L="53.281253814697" a="8.992195129395" b="-73.167968750000">0 26214 65535
+       </LabNamedColor>
+        <LabNamedColor Name="0066CC" L="50.150119781494" a="-3.273440837860" b="-55.082027435303">0 26214 52428
+       </LabNamedColor>
+        <LabNamedColor Name="3366CC" L="51.704967498779" a="3.050787925720" b="-52.492183685303">13107 26214 52428
+       </LabNamedColor>
+        <LabNamedColor Name="6699FF" L="69.394912719727" a="0.042975664139" b="-47.242179870605">26214 39321 65535
+       </LabNamedColor>
+        <LabNamedColor Name="3366FF" L="54.702819824219" a="13.910163879395" b="-70.789062500000">13107 26214 65535
+       </LabNamedColor>
+        <LabNamedColor Name="0033FF" L="41.318935394287" a="36.636730194092" b="-92.707031250000">0 13107 65535
+       </LabNamedColor>
+        <LabNamedColor Name="0033CC" L="36.565563201904" a="26.023443222046" b="-77.093750000000">0 13107 52428
+       </LabNamedColor>
+        <LabNamedColor Name="003399" L="31.917894363403" a="13.296876907349" b="-58.843750000000">0 13107 39321
+       </LabNamedColor>
+        <LabNamedColor Name="CCCCFF" L="86.853553771973" a="5.417969703674" b="-19.796876907349">52428 52428 65535
+       </LabNamedColor>
+        <LabNamedColor Name="9999CC" L="70.972732543945" a="6.187504291534" b="-21.914062500000">39321 39321 52428
+       </LabNamedColor>
+        <LabNamedColor Name="666699" L="52.896755218506" a="7.484375000000" b="-25.093746185303">26214 26214 39321
+       </LabNamedColor>
+        <LabNamedColor Name="333366" L="31.032476425171" a="10.410157203674" b="-30.710931777954">13107 13107 26214
+       </LabNamedColor>
+        <LabNamedColor Name="000033" L="4.157475948334" a="16.992195129395" b="-38.007808685303">0 0 13107
+       </LabNamedColor>
+        <LabNamedColor Name="9999FF" L="72.830886840820" a="13.011725425720" b="-41.578121185303">39321 39321 65535
+       </LabNamedColor>
+        <LabNamedColor Name="6666CC" L="55.284927368164" a="15.777353286743" b="-46.550777435303">26214 26214 52428
+       </LabNamedColor>
+        <LabNamedColor Name="3333CC" L="38.975185394287" a="31.589855194092" b="-73.031250000000">13107 13107 52428
+       </LabNamedColor>
+        <LabNamedColor Name="333399" L="34.779411315918" a="21.425781250000" b="-54.042964935303">13107 13107 39321
+       </LabNamedColor>
+        <LabNamedColor Name="000066" L="13.250613212585" a="31.363281250000" b="-59.847656250000">0 0 26214
+       </LabNamedColor>
+        <LabNamedColor Name="6666FF" L="58.005516052246" a="24.222658157349" b="-65.269531250000">26214 26214 65535
+       </LabNamedColor>
+        <LabNamedColor Name="3333FF" L="43.365501403809" a="40.683605194092" b="-89.250000000000">13107 13107 65535
+       </LabNamedColor>
+        <LabNamedColor Name="0000FF" L="34.685970306396" a="54.343750000000" b="-103.703125000000">0 0 65535
+       </LabNamedColor>
+        <LabNamedColor Name="0000CC" L="28.334867477417" a="47.535167694092" b="-90.710937500000">0 0 52428
+       </LabNamedColor>
+        <LabNamedColor Name="000099" L="21.306678771973" a="40.000003814697" b="-76.332031250000">0 0 39321
+       </LabNamedColor>
+        <LabNamedColor Name="9966FF" L="62.487747192383" a="36.347656250000" b="-57.804687500000">39321 26214 65535
+       </LabNamedColor>
+        <LabNamedColor Name="6633FF" L="47.915134429932" a="48.953128814697" b="-81.585937500000">26214 13107 65535
+       </LabNamedColor>
+        <LabNamedColor Name="3300FF" L="37.264095306396" a="57.074222564697" b="-99.328125000000">13107 0 65535
+       </LabNamedColor>
+        <LabNamedColor Name="3300CC" L="31.628370285034" a="51.023441314697" b="-85.125000000000">13107 0 52428
+       </LabNamedColor>
+        <LabNamedColor Name="330099" L="25.759803771973" a="44.718757629395" b="-68.785156250000">13107 0 39321
+       </LabNamedColor>
+        <LabNamedColor Name="CC99FF" L="76.962318420410" a="26.535169601440" b="-34.796875000000">52428 39321 65535
+       </LabNamedColor>
+        <LabNamedColor Name="9966CC" L="60.085784912109" a="30.027349472046" b="-38.617183685303">39321 26214 52428
+       </LabNamedColor>
+        <LabNamedColor Name="6633CC" L="44.186580657959" a="42.179691314697" b="-64.277343750000">26214 13107 52428
+       </LabNamedColor>
+        <LabNamedColor Name="663399" L="40.755210876465" a="35.335937500000" b="-44.066402435303">26214 13107 39321
+       </LabNamedColor>
+        <LabNamedColor Name="330066" L="19.813112258911" a="38.320312500000" b="-48.749992370605">13107 0 26214
+       </LabNamedColor>
+        <LabNamedColor Name="9933FF" L="53.748470306396" a="58.488277435303" b="-71.796875000000">39321 13107 65535
+       </LabNamedColor>
+        <LabNamedColor Name="6600FF" L="42.771141052246" a="62.914066314697" b="-90.015625000000">26214 0 65535
+       </LabNamedColor>
+        <LabNamedColor Name="9900FF" L="49.515933990479" a="70.078125000000" b="-78.656250000000">39321 0 65535
+       </LabNamedColor>
+        <LabNamedColor Name="6600CC" L="38.279716491699" a="58.078128814697" b="-73.890625000000">26214 0 52428
+       </LabNamedColor>
+        <LabNamedColor Name="9933CC" L="50.663299560547" a="53.515636444092" b="-53.460933685303">39321 13107 52428
+       </LabNamedColor>
+        <LabNamedColor Name="CC66FF" L="67.679229736328" a="48.519542694092" b="-49.199211120605">52428 26214 65535
+       </LabNamedColor>
+        <LabNamedColor Name="CC33FF" L="60.159313201904" a="68.042968750000" b="-61.093746185303">52428 13107 65535
+       </LabNamedColor>
+        <LabNamedColor Name="CC00FF" L="56.662071228027" a="77.675788879395" b="-66.683593750000">52428 0 65535
+       </LabNamedColor>
+        <LabNamedColor Name="9900CC" L="45.984989166260" a="66.269531250000" b="-60.957027435303">39321 0 52428
+       </LabNamedColor>
+        <LabNamedColor Name="660099" L="33.961399078369" a="53.429683685303" b="-54.976558685303">26214 0 39321
+       </LabNamedColor>
+        <LabNamedColor Name="FFCCFF" L="90.658699035645" a="19.191410064697" b="-13.644528388977">65535 52428 65535
+       </LabNamedColor>
+        <LabNamedColor Name="CC99CC" L="75.269607543945" a="21.191410064697" b="-14.941406250000">52428 39321 52428
+       </LabNamedColor>
+        <LabNamedColor Name="996699" L="58.000923156738" a="24.117191314697" b="-16.769533157349">39321 26214 39321
+       </LabNamedColor>
+        <LabNamedColor Name="663366" L="37.823223114014" a="28.867195129395" b="-19.527341842651">26214 13107 26214
+       </LabNamedColor>
+        <LabNamedColor Name="330033" L="14.399510383606" a="32.484375000000" b="-20.843751907349">13107 0 13107
+       </LabNamedColor>
+        <LabNamedColor Name="FF99FF" L="81.562500000000" a="39.675792694092" b="-27.281251907349">65535 39321 65535
+       </LabNamedColor>
+        <LabNamedColor Name="CC66CC" L="65.577514648438" a="43.750007629395" b="-29.597652435303">52428 26214 52428
+       </LabNamedColor>
+        <LabNamedColor Name="CC33CC" L="57.599575042725" a="64.277343750000" b="-41.957031250000">52428 13107 52428
+       </LabNamedColor>
+        <LabNamedColor Name="993399" L="47.909008026123" a="48.839851379395" b="-32.218746185303">39321 13107 39321
+       </LabNamedColor>
+        <LabNamedColor Name="660066" L="30.076593399048" a="49.238281250000" b="-31.589839935303">26214 0 26214
+       </LabNamedColor>
+        <LabNamedColor Name="FF66FF" L="73.261337280273" a="60.050785064697" b="-39.999996185303">65535 26214 65535
+       </LabNamedColor>
+        <LabNamedColor Name="FF33FF" L="66.767768859863" a="77.210937500000" b="-50.124996185303">65535 13107 65535
+       </LabNamedColor>
+        <LabNamedColor Name="FF00FF" L="63.838851928711" a="85.316406250000" b="-54.738273620605">65535 0 65535
+       </LabNamedColor>
+        <LabNamedColor Name="CC00CC" L="53.834255218506" a="74.625007629395" b="-47.882812500000">52428 0 52428
+       </LabNamedColor>
+        <LabNamedColor Name="990099" L="42.765010833740" a="62.796882629395" b="-40.292968750000">39321 0 39321
+       </LabNamedColor>
+        <LabNamedColor Name="FF66CC" L="71.423103332520" a="56.363281250000" b="-20.062498092651">65535 26214 52428
+       </LabNamedColor>
+        <LabNamedColor Name="FF33CC" L="64.617034912109" a="74.253906250000" b="-30.410156250000">65535 13107 52428
+       </LabNamedColor>
+        <LabNamedColor Name="FF00CC" L="61.519611358643" a="82.812507629395" b="-35.187496185303">65535 0 52428
+       </LabNamedColor>
+        <LabNamedColor Name="CC0099" L="51.340381622314" a="71.933601379395" b="-26.148433685303">52428 0 39321
+       </LabNamedColor>
+        <LabNamedColor Name="990066" L="40.045955657959" a="59.859382629395" b="-15.199214935303">39321 0 26214
+       </LabNamedColor>
+        <LabNamedColor Name="FF99CC" L="80.030639648438" a="35.457031250000" b="-7.265628337860">65535 39321 52428
+       </LabNamedColor>
+        <LabNamedColor Name="CC6699" L="63.774513244629" a="39.449218750000" b="-7.433594226837">52428 26214 39321
+       </LabNamedColor>
+        <LabNamedColor Name="CC3399" L="55.366115570068" a="60.894535064697" b="-19.999998092651">52428 13107 39321
+       </LabNamedColor>
+        <LabNamedColor Name="993366" L="45.635723114014" a="44.769538879395" b="-6.835939407349">39321 13107 26214
+       </LabNamedColor>
+        <LabNamedColor Name="660033" L="27.084865570068" a="46.007816314697" b="-0.171880006790">26214 0 13107
+       </LabNamedColor>
+        <LabNamedColor Name="FF3399" L="62.769611358643" a="71.667976379395" b="-8.003905296326">65535 13107 39321
+       </LabNamedColor>
+        <LabNamedColor Name="FF0099" L="59.515933990479" a="80.648445129395" b="-12.832033157349">65535 0 39321
+       </LabNamedColor>
+        <LabNamedColor Name="FF0066" L="57.910545349121" a="78.910163879395" b="13.347658157349">65535 0 26214
+       </LabNamedColor>
+        <LabNamedColor Name="CC0066" L="49.303001403809" a="69.730476379395" b="-0.261722385883">52428 0 26214
+       </LabNamedColor>
+        <LabNamedColor Name="CC3366" L="53.560054779053" a="58.078128814697" b="5.824228763580">52428 13107 26214
+       </LabNamedColor>
+        <LabNamedColor Name="FF6699" L="69.859069824219" a="53.121097564697" b="2.308596611023">65535 26214 39321
+       </LabNamedColor>
+        <LabNamedColor Name="FF3366" L="61.297489166260" a="69.574226379395" b="17.960945129395">65535 13107 26214
+       </LabNamedColor>
+        <LabNamedColor Name="FF0033" L="56.804538726807" a="77.714851379395" b="44.660167694092">65535 0 13107
+       </LabNamedColor>
+        <LabNamedColor Name="CC0033" L="47.876838684082" a="68.187500000000" b="31.765634536743">52428 0 13107
+       </LabNamedColor>
+        <LabNamedColor Name="990033" L="38.085170745850" a="57.738288879395" b="17.050786972046">39321 0 13107
+       </LabNamedColor>
+       </NamedColors>
+    </namedColor2Type> </namedColor2Tag>
+
+    <PrivateTag TagSignature="ncpi"> <PrivateType type="ncpi">
+      <UnknownData>
+       0000000000000002000000050002000000000000000100060003000000000000
+      </UnknownData>
+    </PrivateType> </PrivateTag>
+
+  </Tags>
+</IccProfile>
