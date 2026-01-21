@@ -1,4 +1,7 @@
 # XSS.Cx Public Repo
+- Commodity Injection Signatures
+- CVE PoC's
+- User Controllable Input
 
 ## whoami
 I am David Hoyt.
@@ -6,7 +9,9 @@ I am David Hoyt.
   - https://srd.cx
   - https://xss.cx
     
-## Last Update: 05 APRIL 2025
+## Last Update:21-JAN-2026
+- Renamed from Commodity-Injection-Signatures to fuzz
+- Added XML & ICC CVE PoC's
 - Added ICC Profile XML Crasher PoC via AFL
   - Added AFL Minimized Corpus of XML Crashers   
 - Added CVE-2024-38427 ICC Color Profile Sample PoC's
