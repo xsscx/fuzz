@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IccProfile>
+  <Header>
+    <PreferredCMMType>appl</PreferredCMMType>
+    <ProfileVersion>2.20</ProfileVersion>
+    <ProfileDeviceClass>scnr</ProfileDeviceClass>
+    <DataColourSpace>RGB </DataColourSpace>
+    <PCS>Lab </PCS>
+    <CreationDateTime>2003-07-151T38807:38807:38807</CreationDateTime>
+    <PrimaryPlatform>97979797h</PrimaryPlatform>
+    <ProfileFlags EmbeddedInFile="true" UseWithEmbeddedDataOnly="true" VendorFlags="97979794"/>
+    <DeviceManufacturer>97979797h</DeviceManufacturer>
+    <DeviceModel>97979797h</DeviceModel>
+    <DeviceAttributes ReflectiveOrTransparency="transparency" GlossyOrMatte="matte" MediaPolarity="negative" MediaColour="colour" VendorSpecific="9797979797979790"/>
+    <RenderingIntent>Perceptual</RenderingIntent>
+    <PCSIlluminant>
+      <XYZNumber X="-26728.408203125000" Y="1.000000000000" Z="0.824905395508"/>
+    </PCSIlluminant>
+    <ProfileCreator>appl</ProfileCreator>
+  </Header>
+  <Tags>
+    <profileDescriptionTag> <PrivateType type="B2A2">
+      <UnknownData>
+       000000cc0000012c6568696d6d42412000005d002000040000000000fc000000
+       0000000000006d70706100002070617261000000000000000000010000706172
+       6100000000000000000001000070617261000000000000000000010000706172
+       61000000000000000000
+      </UnknownData>
+    </PrivateType> </profileDescriptionTag>
+
+    <PrivateTag TagSignature="dscm"> <PrivateType type="NULL">
+      <UnknownData>
+       0000010000706172610000000000000000000100007061726100000000000000
+       0000010000111111000000000000000000000000000200000000008ad0000000
+       000000902f0000000000
+      </UnknownData>
+    </PrivateType> </PrivateTag>
+
+    <mediaWhitePointTag> <PrivateType type="T">
+      <UnknownData>
+       0000009a3a0000000000009eda000000
+      </UnknownData>
+    </PrivateType> </mediaWhitePointTag>
+
+    <chromaticAdaptationTag> <PrivateType type="000000A3h">
+      <UnknownData>
+       31000000000000a73a000000000000aaee000000000000ae4b000000000000b1
+       4c158b00000000b3
+      </UnknownData>
+    </PrivateType> </chromaticAdaptationTag>
+
+    <AToB0Tag> <embeddedHeightImageType reserved="6d424120">
+      <HeightImage SeamlessIndicator="23808" EncodingFormat="536871936" MetersMinPixelValue="0.000000000000" MetersMaxPixelValue="-2658455991569831745807614120560689152.000000000000">
+       <Image>
+        0000000000006d70706100002070617261000000000000000000010000706172
+        6100000000000000000001000070617261000000000000000000010000706172
+        6100000000000000000001000011111100000000000000000000000000020000
+        0000008ad0000000000000902f00000000000095540000000000009a3a000000
+        0000009eda000000000000a331000000000000a73a000000000000aaee000000
+        000000ae4b000000000000b14c158b00000000b3ef335900000000b633513800
+        000000b81a6f8800000000b9a78f1f00000000badfb24e00000000bbc9e6df00
+        000000bc6fffff00007061726100000000000000000001000070617261000000
+        0000000000000100007061726100000000000000
+       </Image>
+      </HeightImage>
+    </embeddedHeightImageType> </AToB0Tag>
+
+  </Tags>
+</IccProfile>
