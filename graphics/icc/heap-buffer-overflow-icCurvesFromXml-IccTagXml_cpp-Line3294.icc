@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IccProfile>
+  <Header>
+    <PreferredCMMType></PreferredCMMType>
+    <ProfileVersion>4.20</ProfileVersion>
+    <ProfileDeviceClass>spac</ProfileDeviceClass>
+    <DataColourSpace>RGB </DataColourSpace>
+    <PCS>Lab </PCS>
+    <CreationDateTime>2007-07-25T00:05:37</CreationDateTime>
+    <ProfileFlags EmbeddedInFile="false" UseWithEmbeddedDataOnly="false"/>
+    <DeviceAttributes ReflectiveOrTransparency="reflective" GlossyOrMatte="glossy" MediaPolarity="positive" MediaColour="colour"/>
+    <RenderingIntent>Perceptual</RenderingIntent>
+    <PCSIlluminant>
+      <XYZNumber X="0.964202880859" Y="1.000000000000" Z="0.824905395508"/>
+    </PCSIlluminant>
+    <ProfileCreator></ProfileCreator>
+    <ProfileID>68B17EA13545A8B31B60C0B483C5AD7A</ProfileID>
+  </Header>
+  <Tags>
+    <profileDescriptionTag> <multiLocalizedUnicodeType>
+      <LocalizedText LanguageCountry="enUS"><![CDATA[sRGB v4 ICC preference perceptual intent beta]]></LocalizedText>
+    </multiLocalizedUnicodeType> </profileDescriptionTag>
+
+    <AToB0Tag> <lutAtoBType>
+      <Channels InputChannels="3" OutputChannels="1"/>
+
+      <Matrix
+        e1="1.000000000000" e2="0.000000000000" e3="0.000000000000"
+        e4="0.000000000000" e5="1.000000000000" e6="0.000000000000"
+        e7="0.000000000000" e8="0.000000000000" e9="1.000000000000"
+        e10="0.000000000000" e11="0.000000000000" e12="0.000000000000"/>
+      <MCurves>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+      </MCurves>
+      <CLUT>
+        <GridPoints>17 17 17</GridPoints>
+        <TableData>
+           6975 41668 436IlluminantSPD36  8089 41050 41937  8299 40718 41242  8826 40352 39848  9573 39643 38082  92rt 40012 36686  9972 39601 35466  9917 39295 34836 10355 36465 29818 10472 36010 26275 10421 35933 25745 10368 35857 25209  8430 34739 19141  8461 35017 10117  8597 35104  9389  8735 35182  8755  8289 34691  7379
+           6090 41286 47034  6777 40846 43259  8211 40209 41050  8466 39761 40171  9206 39326 38251  9618 38684 36770  9257 39110 35210 10725 34404 29978 10649 35513 29356 10191 35804 25654 10451 35544 25304 10289 35212 238020656  7797 38886 22496  7850 41326 25816  8132
+          11191 12267 53537 11189 12231 53520 11368  7512 51005 17730  7036 43214 21476  7810 37014 24633  8692 31248 26152  8156 27614 27034  6979 23672 27715  6228 19061 29202  6820 15167 30343  7415 11102 31949  8259  8989 34361  8771  8033 36688 11898  6376 38607 17093  6816 40928 20670  7666 43654 21879  7563
+          11214 12252 53543 11395 166 54594   400 29647 52516  1845 28653 46941  2666 26062 39795  3661 23562 32843  7139 21545 28263  9807 20598 24509 11514 19727 20678 12897 18955 16643 13785 18569 12338 14703 18793  81  9862 40615 36441  9846 40396 35771 10366 37913 30936 10440 38116 28814 10356 36515 26238  9896 39702 25605  9122 40043 23931  7582 35998  9991  7266 37382  8658  7378 37498  7544  7499 38881  6711
+           6668 42691 4867 39295 34836 10355 36465 29818 10472 36010 26275 10421 35933 25745 10368 35857 25209  8430 34739 19141  8461 35017 10117  8597 35104  9389  8735 35182  8755  8289 34691  7379
+           6090 41286 47034  6777 40846 43259  8211 40209 41050  8466 39761 40171  9206 39326 38251  9618 38684 36770  9257 39110 35210 10725 34404 29978 10649 35513 29356 10191 35804 25654 10451 35544 25304 10289   9386 39131 37574  9478 38428 35941 10111 35619 3169152 44757 43431 49212 42728 43441 49356 40701 43359 49535 38624 43273 49734 36581 43122 49969 34629 429 51925 58529 37467 49856 58638 37503 47784 58723 37567 45708 58767 37635 43662 58806 37718 41633 58836 37875 39608 58871 38068 37586 58923 38365 35577 58948 38695 33575 59103 39141 31622 59311 39677 29501
+          58643 36205 63166 58nmcl36135 61027 59252 36072 58983 59518 36009 56937 59785 35935 54870 60036 35869 52810 60240 35838 50772 60425 35820 48742 60547 35856 46719 60659 35898 44700 60749 35974 42694 60842 36065 40687 60932 36264 38686 61027 36474 36678 61144 36785 34654 61293 37112 32626 62042 37677 30460
+          60283 34640 64050 60583 34593 61957 60870 34534 59911 61129 34470 57875 61415 34383 55787 61732 34290 53678 61993 34240 51672 62248 34223 49707 62461 34235 47743 62648 34246 45777 62804 34318 43809 62944 34414 4183#QNAN6 63099 34566 39864 63252 34749 37891 63523 34998 35914 63987 35356 33923 65164 35665 31484
+          62110 32941 64922 62347 32971 62860 62606 32957 60839 62861 32889 58790 63116 32807 56729 63441 32674 54610 63780 32563 52592 64036 32531 50680 64289 32507 48773 64505 32503 46851 64714 32516 44925 64884 32615 42973 65052 32720 41015 65215 32839 39053 65439 32915 37075 65535 330092 35031 65535 32896 32896
+        </TableData>
+      </CLUT>
+      <MCurves>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+      </MCurves>
+      <Matrix
+        e1="1.000000000000" e2="0.000000000000" e3="0.000000000000"
+        e4="0.000000000000" e5="1.000000000000" e6="0.000000000000"
+        e7="0.000000000000" e8="0.000000000000" e9="1.000000000000"
+        e10="0.000000000000" e11="0.000000000000" e12="0.000000000000"/>
+      <BCurves>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+      </BCurves>
+    </lutAtoBType> </AToB0Tag>
+
+    <AToB1Tag> <lutAtoBType>
+      <Channels InputChannels="3" OutputChannels="3"/>
+      <ACurves>
+        <ParametricCurve FunctionType="4">
+          2.399993896484 0.942916870117 0.051864624023 0.076416015625 0.039291381836 0.012496948242 0.012496948242
+        </ParametricCurve>
+        <ParametricCurve FunctionType="4">
+          2.399993896484 0.942916870117 0.051864624023 0.076416015625 0.039291381836 0.012496948242 0.012496948242
+        </ParametricCurve>
+        <ParametricCurve FunctionType="4">
+          2.399993896484 0.942916870117 0.051864624023 0.076416015625 0.039291381836 0.012496948242 0.012496948242
+        </ParametricCurve>
+      </ACurves>
+      <CLUT>
+        <GridPoints>2 2 2</GridPoints>
+        <TableData>
+              0     0     0  9375  3972 46786
+          25238 46982  6361 34613 50954 53148
+          28576 14581   912 37950 18553 47699
+          53814 61563  7274 63189 65535 54060
+        </TableData>
+      </CLUT>
+      <MCurves>
+        <ParametricCurve FunctionType="4">
+          0.333328247070 1.618850708008 0.000000000000 9.368347167969 0.008544921875 -0.160003662109 0.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="4">
+          0.333328247070 1.560897827148 0.000000000000 9.032958984375 0.008850097656 -0.160003662109 0.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="4">
+          0.333328247070 1.892227172852 0.000000000000 10.950393676758 0.007308959961 -0.160003662109 0.000000000000
+        </ParametricCurve>
+      </MCurves>
+      <Matrix
+        e1="0.000000000000" e2="1.000000000000" e3="0.000000000000"
+        e4="1.690338134766" e5="-1.690338134766" e6="0.000000000000"
+        e7="0.000000000000" e8="0.676132202148" e9="-0.676132202148"
+        e10="0.000000000000" e11="0.501968383789" e12="0.501968383789"/>
+      <BCurves>
+        <Curve IdentitySize="2"/>
+        <Curve IdentitySize="2"/>
+        <Curve IdentitySize="2"/>
+      </BCurves>
+    </lutAtoBType> </AToB1Tag>
+
+    <BToA0Tag> <lutBtoAType>
+      <Channels InputChannels="3" OutputChannels="3"/>
+      <BCurves>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+      </BCurves>
+      <Matrix
+        e1="1.000000000000" e2="0.000000000000" e3="0.000000000000"
+        e4="0.000000000000" e5="1.000000000000" e6="0.000000000000"
+        e7="0.000000000000" e8="0.000000000000" e9="1.000000000000"
+        e10="0.000000000000" e11="0.000000000000" e12="0.000000000000"/>
+      <MCurves>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="0">
+          1.000000000000
+        </ParametricCurve>
+      </MCurves>
+      <CLUT>
+        <GridPoints>17 17 17</GridPoints>
+        <TableData>
+           6975 41668 436IlluminantSPD36  8089 41050 41937  8299 40718 41242  8826 40352 39848  9573 39643 38082  9272 40012 36686  9972 39601 35466  9917 39295 34836 10355 36465 29818 10472 36010 26275 10421 35933 25745 10368 35857 25209  8430 34739 19141  8461 35017 10117  8597 35104  9389  8735 35182  8755  8289 32712  8234 41229 41750  9036 40702 39640  9510 39892 37949  9196 40128 36209  9936 39318 34943 10343 36534 30044 10480 36141 26580 10391 36006 25633  8482 36023 22482  8295 3570319 58641 55530 18733 56739 55833 19616 56366 56247 20826 55979 56334 22085 54037 57230 18972 47614 56817 15483 38980 56591 14001 33528 56397 13619 28656 56186 13498 23969 56046 13706 19290 55296 12938 13267 54526 12803 12515 55312 23410 11918 54825 25078 11364
+        </TableData>
+      </CLUT>
+      <ACurves>
+        <ParametricCurve FunctionType="1">
+          1.000000000000 1.658203125000 -0.306411743164
+        </ParametricCurve>
+        <ParametricCurve FunctionType="1">
+          1.000000000000 1.658203125000 -0.306411743164
+        </ParametricCurve>
+        <ParametricCurve FunctionType="1">
+          1.000000000000 1.658203125000 -0.306411743164
+        </ParametricCurve>
+      </ACurves>
+    </lutBtoAType> </BToA0Tag>
+
+    <BToA1Tag> <lutBtoAType>
+      <Channels InputChannels="3" OutputChannels="3"/>
+      <BCurves>
+        <ParametricCurve FunctionType="4">
+          1.000000000000 1.000000000000 0.000000000000 1.000000000000 0.000000000000 0.000000000000 0.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="4">
+          1.000000000000 1.000000000000 0.000000000000 1.000000000000 0.000000000000 0.000000000000 0.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="4">
+    (     1.000000000000 1.000000000000 0.000000000000 1.000000000000 0.000000000000 0.000000000000 0.000000000000
+        </ParametricCurve>
+      </BCurves>
+      <Matrix
+        e1="1.000000000000" e2="0.591598510742" e3="0.000000000000"
+        e4="1.000000000000" e5="0.000000000000" e6="0.000000000000"
+        e7="1.000000000000" e8="0.000000000000" e9="-1.479003906250"
+        e10="-0.296966552734" e11="0.000000000000" e12="0.742401123047"/>
+      <MCurves>
+        <ParametricCurve FunctionType="4">
+          3.000000000000 0.675964355469 0.108154296875 0.053375244141 0.080001831055 0.000000000000 0.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="4">
+          3.000000000000 0.684234619141 0.109481811523 0.055358886719 0.080001831055 0.000000000000 0.000000000000
+        </ParametricCurve>
+        <ParametricCurve FunctionType="4">
+          3.000000000000 0.641708374023 0.102676391602 0.045654296875 0.080001831055 0.000000000000 0.000000000000
+        </ParametricCurve>
+      </MCurves>
+      <CLUT>
+        <GridPoints>2 2 2</GridPoints>
+        <TableData>
+          26352 21904  8793 20218 22652 62771
+           6135 64787     0     0 65535 53979
+          65535     0 11556 59400   748 65535
+          45317 42883  2763 39183 43631 56742
+        </TableData>
+      </CLUT>
+      <ACurves>
+        <ParametricCurve FunctionType="4">
+          0.416671752930 12.072692871094 -4.868942260742 137.203994750977 0.403594970703 -0.054992675781 -55.335006713867
+        </ParametricCurve>
+        <ParametricCurve FunctionType="4">
+          0.416671752930 6.743972778320 -2.268478393555 76.644393920898 0.336883544922 -0.054992675781 -25.780899047852
+        </ParametricCurve>
+        <ParametricCurve FunctionType="4">
+          0.416671752930 3.930603027344 -0.541778564453 44.670806884766 0.138717651367 -0.054992675781 -6.157180786133
+        </ParametricCurve>
+      </ACurves>
+    </lutBtoAType> </BToA1Tag>
+
+    <perceptualRenderingIntentGamutTag> <signatureType>
+      <Signature>prmg</Signature>
+    </signatureType> </perceptualRenderingIntentGamutTag>
+
+    <mediaWhitePointTag> <XYZArrayType>
+      <XYZNumber X="0.964202880859" Y="1.000000000000" Z="0.824905395508"/>
+    </XYZArrayType> </mediaWhitePointTag>
+
+    <copyrightTag> <multiLocalizedUnicodeType>
+      <LocalizedText LanguageCountry="enUS"><![CDATA[Copyright 2007 International Color Consortium]]></LocalizedText>
+    </multiLocalizedUnicodeType> </copyrightTag>
+
+    <chromaticAdaptationTag> <s15Fixed16ArrayType>
+      <Array>
+            1.048019409180 0.023010253906 -0.050170898438 0.029724121094 0.990341186523 -0.017074584961 -0.009231567383 0.010284423828
+            0.752136230469      </Array>
+    </s15Fixed16ArrayType> </chromaticAdaptationTag>
+
+  </Tags>
+</IccProfile>
